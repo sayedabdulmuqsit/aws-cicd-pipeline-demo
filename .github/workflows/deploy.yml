@@ -21,4 +21,4 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Sync to S3
-        run: aws s3 cp index.html s3://muqsit-portfolio-site/index.html --content-type text/html
+        run: aws s3 cp index.html s3://muqsit-cicd-demo/index.html --content-type text/html
